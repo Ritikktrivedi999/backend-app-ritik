@@ -14,4 +14,8 @@ const connectDB = async () => {
     process.exit(1);
   }
 };
+<<<<<<< HEAD
 export { connectDB };
+=======
+export default connectDB;
+>>>>>>> origin/main

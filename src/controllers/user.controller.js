@@ -1,4 +1,5 @@
 import { asyncHandler } from "../utils/asyncHandler.js";
+<<<<<<< HEAD
 import { apiError } from "../utils/apiError.js";
 import { User } from "../models/user.model.js";
 import { uploadOnCloudinary } from "../service/cloudinary.service.js";
@@ -80,3 +81,13 @@ const registerUser = asyncHandler(async (req, res) => {
 });
 
 export { registerUser };
+=======
+
+const registerUser = asyncHandler(async (req, res) => {
+  res.status(200).json({
+    message: "Running route",
+  });
+});
+
+export default registerUser;
+>>>>>>> origin/main
